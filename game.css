@@ -22,9 +22,10 @@
   
   .choice-text {
     padding: 25px;
+    width: 100%;
   }
 
-  #quesiton{
+  #question{
       font-size: 26px;
       margin-bottom: 10px;
   }
