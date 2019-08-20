@@ -7,6 +7,7 @@
 
 body{
     background: rgb(219, 211, 211);
+    background-image: url("https://vignette.wikia.nocookie.net/impossible-quiz/images/5/50/Wiki-background/revision/latest?cb=20180430040110");
 }
 
 .container {
@@ -21,8 +22,8 @@ body{
 
 h1{
     font-size: 60px;
-    color:rgb(12, 12, 41);
-    margin-bottom: 10px;
+    color:darkgray;
+    margin-bottom: 100px;
 }
 
 .flex-coloumn{
@@ -44,12 +45,13 @@ h1{
     border:1px solid rgb(98, 98, 226);
     width: 100%;
     font-size: 20px;
+    color:rgb(73, 70, 70);
 }
 
 .btn:hover{
     cursor: pointer;
     transform: translateY(-1px);
-    box-shadow: 0 10px 25px 0 rgba(86,185,225,1);
+    box-shadow: 0 10px 25px 0 rgb(40, 42, 43);
     transition: transform 150ms;
     
 }

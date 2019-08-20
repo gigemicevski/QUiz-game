@@ -10,13 +10,13 @@
   .choice-container:hover {
     cursor: pointer;
     transform: translateY(-1px);
-    box-shadow: 0 10px 25px 0 rgba(86,185,225,1);
+    box-shadow: 0 10px 25px 0 rgb(46, 30, 17);
     transition: transform 150ms;
   }
   
   .choice-prefix {
     padding: 20px 35px;
-    background-color: #56a5eb;
+    background-color: burlywood;
     color: white;
   }
   
