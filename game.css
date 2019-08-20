@@ -29,3 +29,11 @@
       font-size: 26px;
       margin-bottom: 10px;
   }
+
+  .correct{
+    background-color: rgb(29, 143, 29);
+  }
+
+  .incorrect{
+    background-color: rgb(124, 11, 11);
+  }
