@@ -2,8 +2,60 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background: rgb(219, 211, 211);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin:0 auto;
+}
+
+h1{
+    font-size: 60px;
+    color:rgb(12, 12, 41);
+    margin-bottom: 10px;
+}
+
+.flex-coloumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: white;
+    text-decoration: none;
+    padding: 25px 20px;
+    text-align: center;
+    margin-bottom: 8px;
+    border:1px solid rgb(98, 98, 226);
+    width: 100%;
+    font-size: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 25px 0 rgba(86,185,225,1);
+    transition: transform 150ms;
+    
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
