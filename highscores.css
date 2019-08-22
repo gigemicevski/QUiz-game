@@ -1,0 +1,21 @@
+#highScoresList {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 25px;
+    border:5px solid gray;
+    text-align: center;
+  }
+  
+  .high-score {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .high-score:hover {
+    transform: scale(1.025);
+  }
+
+  .btn2{
+      width: 100%;
+      margin-left: 33%;
+  }
